@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokemon Search</title>
+
+  <link rel="stylesheet" href="./Pokemon-Search.css">
+</head>
+<body>
+  <section>
+    <h1>Pokemon Search</h1>
+
+    <form class="form">
+      <label class="search-label">
+        <span class="search-title">寶可夢編號 / 英文名稱</span>
+        <input class="search-input" type="search">
+      </label>
+      <button type="button" id="search-btn">搜尋</button>
+    </form>
+
+    <div class="illustrated-book">
+      <figure class="pokemon">
+        <img id="pokemon-img" class="poke-img" src="">
+        <img id="pokemon-shiny-img" class="poke-img" src="">
+
+      </figure>
+      <figure class="pokemon">
+        <img id="pokemon-gif" class="poke-gif" src="">
+        <img id="pokemon-back-gif" class="poke-gif" src="" >
+      </figure>
+      <figcaption id="pokemon-name"></figcaption>
+    </div>
+
+    <div class="contrast">
+      <p>角色編號為 1 ~ 1025 </p>
+      <p>GIF最多只到編號 649 <br> 650開始沒圖源(有遊戲商在偷懶R)</p>
+      <p>1：妙蛙種子</p>
+      <p>4：小火龍</p>
+      <p class="important">54：可達鴨</p>
+      <p>26：雷丘</p>
+      <p>25：皮卡丘</p>
+    </div>
+  </section>
+
+  <script src="./Pokemon-Search.js"></script>
+</body>
+</html>
